@@ -15,7 +15,7 @@ type DataType = {
 const data: DataType[] = [
   {
     title: "Kagumo High School",
-    image: "/static/images/kagumo.png",
+    image: "/static/images/kagumo.jpg",
   },
   {
     title: "Strathmore High School",
