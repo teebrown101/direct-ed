@@ -82,7 +82,7 @@ const Navbar = () => {
             ))}
             <div className="dropdown dropdown-hover">
               <label tabIndex={0}>
-                <Link href={"/transactions"} style={{pointerEvents: "none"}} passHref>
+                {/*<Link href={"/transactions"} style={{pointerEvents: "none"}} passHref>
                   
                     <li
                       className={`text-xl text-white ${
@@ -94,7 +94,7 @@ const Navbar = () => {
                       Transactions
                     </li>
                   
-                </Link>
+                </Link>*/}
               </label>
               <div
                 tabIndex={0}
