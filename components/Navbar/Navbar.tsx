@@ -18,7 +18,7 @@ type LinksType = {
 
 const NavLinks: LinksType[] = [
   { title: "Scholarship Pools", link: "/" },
-  { title: "Scholars’ Progress", link: "/progress" },
+  // { title: "Scholars’ Progress", link: "/progress" },
 ];
 
 const Navbar = () => {
