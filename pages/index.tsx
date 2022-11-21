@@ -17,10 +17,7 @@ const data: DataType[] = [
     title: "Kagumo High School",
     image: "/static/images/kagumo.jpg",
   },
-  {
-    title: "Strathmore High School",
-    image: "/static/images/strathmore.png",
-  },
+  
 ];
 
 const Home: NextPage = () => {
