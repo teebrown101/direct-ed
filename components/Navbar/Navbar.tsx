@@ -18,7 +18,7 @@ type LinksType = {
 
 const NavLinks: LinksType[] = [
   { title: "Scholarship Pools", link: "/" },
-  { title: "Scholars’ Progress", link: "/progress" },
+  // { title: "Scholars’ Progress", link: "/progress" },
 ];
 
 const Navbar = () => {
@@ -82,7 +82,7 @@ const Navbar = () => {
             ))}
             <div className="dropdown dropdown-hover">
               <label tabIndex={0}>
-                <Link href={"/transactions"} passHref>
+                <Link href={"/transactions"} style={{pointerEvents: "none"}} passHref>
                   
                     <li
                       className={`text-xl text-white ${
