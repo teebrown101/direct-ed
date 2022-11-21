@@ -82,7 +82,19 @@ const Navbar = () => {
             ))}
             <div className="dropdown dropdown-hover">
               <label tabIndex={0}>
-
+                  <Link href={"/"} style={{pointerEvents: "none"}} passHref>
+                  
+                    <li
+                      className={`text-xl text-white ${
+                        router.pathname === "/transactions"
+                          ? "font-semibold underline"
+                          : "font-light"
+                      }`}
+                    >
+                      Transactions
+                    </li>
+                  
+                </Link>
               </label>
               <div
                 tabIndex={0}
