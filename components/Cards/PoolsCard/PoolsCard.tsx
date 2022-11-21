@@ -19,7 +19,7 @@ const PoolsCard = ({ title, image }: { title?: string; image?: string }) => {
       <div className="px-5">
         <div className="divide-x divide-light flex items-center w-full border-b border-light">
           <div className="w-1/2 py-2">
-            <h1 className="font-semibold text-xl text-center">23</h1>
+            <h1 className="font-semibold text-xl text-center">2/40</h1>
             <p className="text-center">Scholarships funded</p>
           </div>
           <div className="w-1/2 py-2">
@@ -33,7 +33,7 @@ const PoolsCard = ({ title, image }: { title?: string; image?: string }) => {
           <span className="flex items-center space-x-2">
             <MdOutlineAccessTime /> <span>33 days left</span>
           </span>
-          <span>124 people have donated</span>
+          <span>2 people have donated</span>
         </div>
         <progress
           className="progress progress-primary w-full bg-slate-300"
@@ -41,7 +41,7 @@ const PoolsCard = ({ title, image }: { title?: string; image?: string }) => {
           max="100"
         ></progress>
         <h1 className="text-base font-bold text-dark2">
-          $300 to fund the next scholarship{" "}
+          ₳500 to fund the next scholarship{" "}
         </h1>
       </div>
       <div className="flex items-center justify-center p-5">
