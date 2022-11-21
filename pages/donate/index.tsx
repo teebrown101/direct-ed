@@ -12,7 +12,7 @@ import { Button } from "../../components";
 
 import { Transaction } from '@martifylabs/mesh'
 
-const donationAddress = "addr_test1qq6pd7q8fhpn59xrpscag3y6tt9kw09l7vfw4ay0d2mqdrrxka3dcytfcgy43vp3l6hmf8lgr03kncxtmwfgnxgrtn4sd7chqa"
+const donationAddress = "addr1x8c0hsmp3ya69aqvntdnanp2d3cqaj3kmlmjctalw8k5lu8sl0pkrzfm5t6qexkm8mxz5mrspm9rdhlh9shm7u0dflcqjcd9va"
 
 const amounts: string[] = ["₳1000", "₳500", "₳100", "CUSTOM"];
 // const amounts: number[] = [10000000000, 5000000000, 1000, "CUSTOM"];
